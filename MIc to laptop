@@ -1,0 +1,11 @@
+Analog to Digital Conversion (ADC): Your voice creates sound waves (analog signals). The microphone picks these up and converts them into electrical signals. Your laptop’s sound card then converts these electrical signals into binary code (a series of 0s and 1s), which is the only language computers understand.
+Sampling: The laptop takes thousands of "snapshots" of your voice per second. This is called the sample rate.
+Storage: The software you are using (like a recorder or browser) takes this stream of binary data and packages it into a file format like .mp3, .wav, or .aac and saves it to your hard drive.
+How the Laptop "Recognizes" Your Voice
+Your laptop does not "hear" the word "Jeet" the way a human does. Instead, it uses Automatic Speech Recognition (ASR) technology, which relies on mathematics and pattern matching:
+Waveform Analysis: The computer views your voice as a complex waveform. It analyzes the amplitude (volume) and frequency (pitch) of that wave.
+Feature Extraction (Spectrograms): The laptop breaks the audio down into tiny segments called phonemes (the smallest units of sound). It creates a "spectrogram," which is a visual representation of how frequencies change over time.
+Pattern Matching & AI Models:
+The laptop uses massive pre-trained machine learning models. These models have been "trained" on millions of hours of human speech.
+The system compares your phonemes against these models to find the highest probability of what you said.
+It identifies that the specific sequence of sound patterns you produced corresponds to the linguistic structure of the word
